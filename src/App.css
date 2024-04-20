@@ -1,42 +1,85 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+/* Estilos para el banner */
+.banner {
+  background-color: #f0f0f0;
+  padding: 20px;
   text-align: center;
+  position: relative; /* Asegura que el posicionamiento absoluto funcione correctamente */
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+/* Estilos para la imagen */
+.banner-image {
+  max-width: 100%;
+  height: auto;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Estilos para el contenedor del contenido del banner */
+.banner-content {
+  position: relative;
+   /* Asegura que el posicionamiento absoluto funcione correctamente */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+/* Estilos para el botón "Ver más productos" */
+.ver-mas-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 20px; /* Agrega bordes redondeados */
+  position: absolute;
+  top: 20px; /* Distancia desde la parte superior */
+  left: 20px; /* Distancia desde la izquierda */
 }
 
-.card {
-  padding: 2em;
+.ver-mas-btn:hover {
+  background-color: #0056b3;
+}
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
 }
 
-.read-the-docs {
-  color: #888;
+/* Estilos para el menú */
+.menu {
+  background-color: #333;
+  color: white;
+}
+
+.menu ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0; /* Elimina el margen predeterminado */
+  display: flex; /* Muestra los elementos en línea */
+}
+
+.menu li {
+  padding: 10px;
+  border-bottom: 1px solid #555;
+  display: flex; /* Alinea los íconos y el texto */
+  align-items: center; /* Centra verticalmente los íconos y el texto */
+}
+
+.menu li:last-child {
+  border-bottom: none;
+}
+
+ 
+.content {
+  flex: 1 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.banner {
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
 }
