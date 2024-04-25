@@ -8,8 +8,17 @@ function Menu() {
         <li> <NavLink to='/nafnaf'>
             Naf Naf 
           </NavLink></li>
-        <li> Configuración</li>
-        <li> Acerca de</li>
+        <li> <NavLink to='/americanbrands'>
+          American Brands          
+          </NavLink></li>
+        <li> <NavLink to ='/rifle'>
+          Rifle
+          </NavLink></li>
+          <li> <NavLink to ='mng'>
+            MNG
+          </NavLink>
+
+          </li>
 </ul>
     </div>
   );

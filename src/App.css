@@ -20,7 +20,7 @@
 
 /* Estilos para el botón "Ver más productos" */
 .ver-mas-btn {
-  background-color: #007bff;
+  background-color: #f8f8f8;
   color: white;
   border: none;
   padding: 10px 20px;
@@ -56,7 +56,7 @@
 
 .menu li {
   padding: 10px;
-  border-bottom: 1px solid #555;
+  border-bottom: 1px solid #f1f1f1;
   display: flex; /* Alinea los íconos y el texto */
   align-items: center; /* Centra verticalmente los íconos y el texto */
 }
